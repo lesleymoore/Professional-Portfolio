@@ -1,0 +1,244 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    --blue: cadetblue;
+    --grey: dimgray;
+    --pink: pink;
+}
+main {
+    background-color: var(--grey);
+}
+/*Starts header CSS*/
+header {
+    background-color: var(--grey);
+    padding: 20px;
+    font-weight: bold;
+}
+header h1{
+    display: inline;
+    background-color: powderblue;
+    padding: 10px;
+    border-radius: 15px;
+}
+/*nav links in header area*/
+.top {
+    float: right;
+    display: inline;
+    flex-wrap: wrap;
+    font-size: 20px;
+    padding: 15px;
+}
+/*image across*/
+.area {
+    background-image: url(https://image.freepik.com/free-vector/acid-pink-blue-marble-background_23-2148680162.jpg);
+    display: flex;
+    padding: 10px;
+}
+.headshot {
+    height: 200px;
+    width: 200px;
+    border: var(--pink) solid 5px;
+    border-radius: 25px;
+    position: center;
+}
+.subtitle {
+    font-size: 30px;
+    padding: 10px;
+    background-color:var(--blue);
+    height: 30px;
+    border-radius: 10px;
+}
+/*about me section*/
+.aboutme {
+    display: flex;
+    flex-wrap: wrap;
+}
+#About {
+    margin-left: 100px;
+    margin-right: 20px;
+    width: 100px;
+    padding: 20px;
+    text-align: right;
+    font-size: 30px;
+}
+.abp {
+    color: navy;
+    width: 800px;
+    text-align: center;
+    padding: 50px;
+    font-weight: bolder;
+}
+/*work display area*/
+#Work {
+    width: 100px;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 20px;
+    text-align: right;
+    font-size: 30px;
+}
+.cd {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: var(--blue);
+    border:var(--pink) solid 5px;
+    height: 200px;
+    width: 60%;
+    padding: 20px;
+    margin-top: 25px;
+}
+.calc {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: var(--blue);
+    border: var(--pink) solid 5px;
+    height: 200px;
+    width: 30%;
+    margin-top: 25px;
+    margin-left: 260px;
+    display:inline;
+}
+.project {
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: var(--blue);
+    border: var(--pink) solid 5px;
+    height: 200px;
+    width: 30%;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.led {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: var(--blue);
+    border: var(--pink) solid 5px;
+    height: 200px;
+    width: 30%;
+    margin-top: 25px;
+    margin-left: 260px;
+}
+.rb {
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: var(--blue);
+    border: var(--pink) solid 5px;
+    height: 200px;
+    width: 30%;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.h {
+    display:flex;
+    flex-wrap: wrap;
+}
+/*Contact info at the bottom*/
+.cm {
+    display: flex;
+    flex-wrap: wrap;
+}
+#Contact {
+    width: 100px;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 20px;
+    text-align: right;
+    font-size: 30px;
+}
+.info {
+    margin-top:60px;
+    font-size: 20px;
+}
+.p {
+    color: navy;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/*Media screen for tablet size*/
+@media screen and (max-width: 1200px) {
+    #About {
+        text-align: left;
+        text-decoration: underline;
+        margin-left:100px;
+        width:100%;
+        font-size: 40px;
+        padding: 0;
+    }
+    .abp {
+        text-align: center;
+        margin: 0;
+        width: 100%;
+        padding-top:0px;
+        font-size: 20px;
+    }
+    #Work {
+        font-size: 40px;
+        width: 100%;
+        text-align: center;
+        text-decoration: underline;
+        margin-left: 50px;
+        margin-top: 0;
+    }
+    .cd {
+        width: 79%;
+        margin-left: 100px;
+    }
+    .calc, .led {
+        width: 40%;
+        margin-left: 100px;
+    }
+    .rb, .project {
+        width: 40%;
+    }
+    #Contact {
+        width: 100%;
+        text-align: center;
+        text-decoration: underline;
+        font-size: 40px;
+        margin-left: 50px;
+        padding: 0;
+    }
+    .info {
+        margin-top: 0;
+        margin-left: 30px;
+        margin-bottom: 25px;
+    }
+}
+
+/*Media screen for phone size*/
+@media screen and (max-width: 768px) {
+    header {
+        text-align: center;
+    }
+    .top {
+        margin: 10px;
+    }
+    .subtitle {
+        padding:40px;
+        margin-top: 20px;
+    }
+    #About {
+        text-align: center;
+        margin-left: 0px;
+    }
+    #Work {
+        margin-left: 85px;
+    }
+    .cd, .calc, .led {
+        width: 100%;
+        margin-left: 25px;
+        margin-right: 10px
+    }
+    .rb, .project {
+        width: 100%;
+        margin-right: 10px;
+    }
+    #Contact {
+        margin-left: 85px;
+    }
+    .info {
+        text-align: center;
+    }
+}
