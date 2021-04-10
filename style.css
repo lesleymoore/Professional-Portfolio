@@ -29,6 +29,10 @@ header h1{
     font-size: 20px;
     padding: 15px;
 }
+/*determine links color*/
+.link {
+    color: var(--navy);
+}
 /*image across under header*/
 .area {
     background-image: url(https://i.pinimg.com/originals/54/6e/d6/546ed6136fd398c3a2a6eab2896e2064.jpg);
@@ -84,7 +88,7 @@ header h1{
     margin-left: 100px;
     margin-right: 20px;
     text-align: right;
-    font-size: 30px;
+    font-size: 40px;
 }
 .card {
     background-color:var(--pink);
