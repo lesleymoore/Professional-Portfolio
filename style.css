@@ -3,6 +3,7 @@
     --blue: cadetblue;
     --grey: dimgray;
     --pink: pink;
+    --navy: rgb(0, 0, 68);
 }
 main {
     background-color: var(--grey);
@@ -15,7 +16,8 @@ header {
 }
 header h1{
     display: inline;
-    background-color: powderblue;
+    background-color: var(--blue);
+    color: var(--navy);
     padding: 10px;
     border-radius: 15px;
 }
@@ -45,6 +47,7 @@ header h1{
     font-size: 30px;
     padding: 10px;
     background-color:var(--blue);
+    color: var(--navy);
     height: 30px;
     border-radius: 10px;
 }
@@ -54,6 +57,7 @@ header h1{
     flex-wrap: wrap;
 }
 #About {
+    color: var(--navy);
     margin-left: 100px;
     margin-right: 20px;
     width: 100px;
@@ -62,7 +66,7 @@ header h1{
     font-size: 30px;
 }
 .abp {
-    color: navy;
+    color: var(--navy);
     width: 800px;
     text-align: center;
     padding: 50px;
@@ -70,6 +74,7 @@ header h1{
 }
 /*work display area*/
 #Work {
+    color: var(--navy);
     width: 100px;
     padding: 20px;
     margin-left: 100px;
@@ -78,7 +83,7 @@ header h1{
     font-size: 30px;
 }
 .cd {
-    text-align: center;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-dark-blue-minimalist-star-point-smart-technology-background-bluesimplestar-pointdataintelligentilluminatetechnologydynamicgridbackgroundadvertising-backgroundadvertising-image_73127.jpg);
     font-weight: bold;
     font-size: 20px;
     background-color: var(--blue);
@@ -88,10 +93,17 @@ header h1{
     padding: 20px;
     margin-top: 25px;
 }
+.code, .c, .po, .lw, .r {
+    background-color:var(--pink);
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
 .calc {
+    background-image: url(https://onlyvectorbackgrounds.com/wp-content/uploads/2019/01/Simple-Vector-Geometric-Background-Navy.jpg);
     font-weight: bold;
     font-size: 20px;
-    background-color: var(--blue);
     border: var(--pink) solid 5px;
     height: 200px;
     width: 30%;
@@ -100,10 +112,9 @@ header h1{
     display:inline;
 }
 .project {
-    text-align: right;
+    background-image: url(https://i.pinimg.com/originals/4f/39/10/4f39103da156fb7e479abd6355932e88.jpg);
     font-weight: bold;
     font-size: 20px;
-    background-color: var(--blue);
     border: var(--pink) solid 5px;
     height: 200px;
     width: 30%;
@@ -113,7 +124,7 @@ header h1{
 .led {
     font-weight: bold;
     font-size: 20px;
-    background-color: var(--blue);
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/000/691/365/small/navy-blue-gradient-geometric-background.jpg);
     border: var(--pink) solid 5px;
     height: 200px;
     width: 30%;
@@ -121,10 +132,9 @@ header h1{
     margin-left: 260px;
 }
 .rb {
-    text-align: right;
     font-weight: bold;
     font-size: 20px;
-    background-color: var(--blue);
+    background-image: url(https://www.preachit.org/images/ppt_thumbs/3591-slide1-600.jpg?m=1555509283);
     border: var(--pink) solid 5px;
     height: 200px;
     width: 30%;
@@ -141,6 +151,7 @@ header h1{
     flex-wrap: wrap;
 }
 #Contact {
+    color: var(--navy);
     width: 100px;
     padding: 20px;
     margin-left: 100px;
@@ -153,7 +164,7 @@ header h1{
     font-size: 20px;
 }
 .p {
-    color: navy;
+    color: var(--navy);
     margin-left: 50px;
     margin-right: 50px;
 }
