@@ -30,6 +30,9 @@ header h1{
     font-size: 20px;
     padding: 15px;
 }
+.top:hover {
+    color: var(--navy);
+}
 /*image across*/
 .area {
     background-image: url(https://image.freepik.com/free-vector/acid-pink-blue-marble-background_23-2148680162.jpg);
